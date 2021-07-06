@@ -40,6 +40,12 @@
 . Show the list of contexts:
 
     kubectl config get-contexts
+    if more than one kubernetes cluster you can configure default 
+    kubectl config get-contexts    
+CURRENT   NAME                          CLUSTER          AUTHINFO           NAMESPACE
+*         docker-desktop                docker-desktop   docker-desktop     
+          kubernetes-admin@kubernetes   kubernetes       kubernetes-admin 
+    Example : kubectctl config get-contexts docker-desktop
 
 . Check the version:
 
